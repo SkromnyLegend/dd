@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: dodgerblue;
+    padding-top: 100px;
+}
+.luna{
+    width: 150px;
+    height: 150px;
+    background:  #fff;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 80px;
+    position: relative;
+    z-index: 3;
+    
+}
+.prosta{
+    width: 150px;
+    height: 150px;
+    background: dodgerblue;
+    border-radius: 50%;
+    position: relative;
+    z-index: 5;
+    
+    
+    
+}
+.rotate{
+    width: 500px;
+    height: 500px;
+    background: red;
+    transform: rotate(45deg);
+    position: relative;
+       z-index: 10;
+       margin-left: -150px;
+       margin-top: 100px;
+}
